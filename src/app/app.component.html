@@ -1,0 +1,5 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit(form)">
+	<input type="button" (click)="onClick()" formControlName="item" name="item"/>
+
+	<button type="submit">Submit</button>
+</form>
